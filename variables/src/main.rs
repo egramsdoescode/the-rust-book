@@ -1,9 +1,12 @@
 fn main() {
-    let x: (i32, f64, u8) = (500, 6.4, 1);
+    let x = 5;
+    let x = x + 1;
 
-    let _five_hundred = x.0;
+    {   
+        let x = x * 2;
+        println!("The value of x in the inner scope is: {x}");
+    }
 
-    let _six_point_four = x.1;
+    println!("The value of x is: {x}");
 
-    let _one = x.2;
 }

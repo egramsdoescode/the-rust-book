@@ -1,0 +1,21 @@
+Two different data types:
+
+Scalar: integer, floating-point number, boolean, character
+
+Compound:  tuple, array
+
+Integer:
+
+Length  | Signed | Unsigned
+-----------------------------
+8-bit   |i8      |u8
+16-bit  |i16     |u16
+32-bit  |i32     |u32
+64-bit  |i64     |u64
+128-bit |i128    |u128
+arch    |isize   |usize
+
+Signed can store -(2^(n-1)) to 2(^n-1) - 1, where n is the number of bits that variant uses
+Unsigned can store (2^n) - 1
+
+

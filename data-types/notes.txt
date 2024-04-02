@@ -18,4 +18,7 @@ arch    |isize   |usize
 Signed can store -(2^(n-1)) to 2(^n-1) - 1, where n is the number of bits that variant uses
 Unsigned can store (2^n) - 1
 
+Floating-point:
 
+f32: 32-bit floating point number
+f64: 64-bit floating point number

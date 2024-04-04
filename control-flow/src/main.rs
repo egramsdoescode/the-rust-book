@@ -1,6 +1,6 @@
 fn main() {
     let number = 7;
-    
+
     // This condition MUST be a Boolean value, not an integer
     if number < 5 {
         println!("condition was true");
